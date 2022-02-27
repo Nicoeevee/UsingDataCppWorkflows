@@ -33,7 +33,14 @@ protected:
 	FGenericItemInfo GenericItemInfo;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Item Info")
 	bool bRunCode = false;
+
+	UPROPERTY(BlueprintReadWrite)
+	UCurveFloat* mFloatCurve = nullptr;
+	UPROPERTY(BlueprintReadWrite)
+	float mRotationDuration = 0;
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+private:
+	float CurrentRotationTime = 0;
 };
