@@ -1,0 +1,4 @@
+---,ItemType,ItemName,ItemCost,ItemInfo,Mesh,ItemImage,CurveFloat,RotationDuration
+Radio,"Radio","Rockit Radio","153","A radio","StaticMesh'/Game/Assets/Meshes/RockitRadio.RockitRadio'","Texture2D'/Game/Assets/Textures/T_RockitRadio.T_RockitRadio'","CurveFloat'/Game/Blueprints/Data/RotationCurveLinear.RotationCurveLinear'","5.000000"
+Trophy,"Trophy","Football  Trophy","1","A trophy","StaticMesh'/Game/Assets/Meshes/FootballTrophy_a.FootballTrophy_a'","Texture2D'/Game/Assets/Textures/T_FootballTrophy.T_FootballTrophy'","CurveFloat'/Game/Blueprints/Data/RotationCurveSmooth.RotationCurveSmooth'","10.000000"
+Spaceship,"Spaceship","Spaceship","1000000","A spaceship","StaticMesh'/Game/Assets/Meshes/SpaceshipToy_a.SpaceshipToy_a'","Texture2D'/Game/Assets/Textures/T_Spaceship.T_Spaceship'","CurveFloat'/Game/Blueprints/Data/RotationCurveSmooth.RotationCurveSmooth'","1.000000"

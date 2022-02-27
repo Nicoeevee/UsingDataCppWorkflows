@@ -1,0 +1,2 @@
+E:\Documents\Unreal Projects\ImprovingCppWorkflows\ImprovingCppWorkflows\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RD\Definitions.h
+E:\Documents\Unreal Projects\ImprovingCppWorkflows\ImprovingCppWorkflows\Plugins\Developer\RiderLink\Source\RD\src\rd_gen_cpp\src\RdTextBuffer.h
