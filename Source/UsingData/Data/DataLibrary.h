@@ -36,7 +36,7 @@ struct FGenericItemInfo
 	UTexture2D* ItemImage;
 
 	UPROPERTY(EditAnywhere, BlueprintreadWrite, Category="Item Info")
-	UCurveFloat *CurveFloat;
+	UCurveFloat* CurveFloat;
 	UPROPERTY(EditAnywhere, BlueprintreadWrite, Category="Item Info")
 	float RotationDuration = 5;
 };
@@ -59,7 +59,7 @@ struct FItemInformationTable : public FTableRowBase
 	UTexture2D* ItemImage;
 
 	UPROPERTY(EditAnywhere, BlueprintreadWrite, Category="Item Info")
-	UCurveFloat *CurveFloat;
+	UCurveFloat* CurveFloat;
 	UPROPERTY(EditAnywhere, BlueprintreadWrite, Category="Item Info")
 	float RotationDuration = 5;
 };
@@ -68,5 +68,7 @@ UCLASS()
 class USINGDATA_API UDataLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-	
+
+	UFUNCTION(BlueprintCallable, Category="Save", meta=(Keywords="Save"))
+	static bool SaveTable(FString SaveDirectory, FString FileName, UDataTable* DataTable, bool AllowOverwriting);
 };
